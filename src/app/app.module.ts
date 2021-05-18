@@ -8,6 +8,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { PetListComponent } from './pet-list/pet-list.component';
 import { PetDetailComponent } from './pet-detail/pet-detail.component';
 import { PetNewComponent } from './pet-new/pet-new.component';
+import { AboutPageComponent } from './about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PetNewComponent } from './pet-new/pet-new.component';
     MainPageComponent,
     PetListComponent,
     PetDetailComponent,
-    PetNewComponent
+    PetNewComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
