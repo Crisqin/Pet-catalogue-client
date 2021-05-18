@@ -4,10 +4,18 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { PetListComponent } from './pet-list/pet-list.component';
+import { PetDetailComponent } from './pet-detail/pet-detail.component';
+import { PetNewComponent } from './pet-new/pet-new.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainPageComponent,
+    PetListComponent,
+    PetDetailComponent,
+    PetNewComponent
   ],
   imports: [
     BrowserModule,
